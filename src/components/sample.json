@@ -1,0 +1,185 @@
+{
+response_code: 0,
+results: [
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "What does a funambulist walk on?",
+correct_answer: "A Tight Rope",
+incorrect_answers: [
+"Broken Glass",
+"Balls",
+"The Moon"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "How would one say goodbye in Spanish?",
+correct_answer: "Adi&oacute;s",
+incorrect_answers: [
+" Hola",
+"Au Revoir",
+"Salir"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+correct_answer: "Spruce Goose",
+incorrect_answers: [
+"Noah&#039;s Ark",
+"Fat Man",
+"Trojan Horse"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "Which of these colours is NOT featured in the logo for Google?",
+correct_answer: "Pink",
+incorrect_answers: [
+"Yellow",
+"Blue",
+"Green"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "What is the Spanish word for &quot;donkey&quot;?",
+correct_answer: "Burro",
+incorrect_answers: [
+"Caballo",
+"Toro",
+"Perro"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "According to Sherlock Holmes, &quot;If you eliminate the impossible, whatever remains, however improbable, must be the...&quot;",
+correct_answer: "Truth",
+incorrect_answers: [
+"Answer",
+"Cause",
+"Source"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "How tall is the Burj Khalifa?",
+correct_answer: "2,722 ft",
+incorrect_answers: [
+"2,717 ft",
+"2,546 ft",
+"3,024 ft"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "Which of the following presidents is not on Mount Rushmore?",
+correct_answer: "John F. Kennedy",
+incorrect_answers: [
+"Theodore Roosevelt",
+"Abraham Lincoln",
+"Thomas Jefferson"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "What is the Zodiac symbol for Gemini?",
+correct_answer: "Twins",
+incorrect_answers: [
+"Fish",
+"Scales",
+"Maiden"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "What nuts are used in the production of marzipan?",
+correct_answer: "Almonds",
+incorrect_answers: [
+"Peanuts",
+"Walnuts",
+"Pistachios"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "What is Cynophobia the fear of?",
+correct_answer: "Dogs",
+incorrect_answers: [
+"Birds",
+"Flying",
+"Germs"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "Which of the following is not the host of a program on NPR?",
+correct_answer: "Ben Shapiro",
+incorrect_answers: [
+"Terry Gross",
+"Ira Glass",
+"Peter Sagal"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "Which of the following is not an Ivy League University?",
+correct_answer: "Stanford",
+incorrect_answers: [
+"University of Pennsylvania",
+"Harvard",
+"Princeton"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "What is the French word for &quot;fish&quot;?",
+correct_answer: "poisson",
+incorrect_answers: [
+"fiche",
+"escargot",
+"mer"
+]
+},
+{
+category: "General Knowledge",
+type: "multiple",
+difficulty: "easy",
+question: "What airline was the owner of the plane that crashed off the coast of Nova Scotia in 1998?",
+correct_answer: "Swiss Air",
+incorrect_answers: [
+"Air France",
+"British Airways",
+"TWA"
+]
+}
+]
+}
