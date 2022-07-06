@@ -3,6 +3,7 @@ import useSound from "use-sound";
 import play from "./play.mp3";
 import correct from "./correct.mp3";
 import wrong from "./wrong.mp3";
+import Timer from "./Timer";
 
 
 export default function Trivia(props) {
@@ -34,8 +35,8 @@ export default function Trivia(props) {
   }
   const handleClick = (a) =>{
     setSelectedAnswer(a);
-  
     setClassName("answer active");
+    <Timer selectedAnswer={selectedAnswer}/>
     delay(3000,() => {
     setClassName(a === props.data[props.questionNumber-1].correct_answer ? "answer correct" : "answer wrong") 
     });

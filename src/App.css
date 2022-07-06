@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 .app{
     height: 100vh;
     display: flex;
@@ -31,6 +34,7 @@
     position: absolute;
     bottom: 10px;
     left: 10%;
+    background-color: rgb(48, 3, 89);
 }
 .bottom{
     height: 50%;
@@ -50,13 +54,14 @@
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .answers{
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    font-family: 'Ubuntu', sans-serif;
 }
 .answer{
     width: 40%;
@@ -90,6 +95,7 @@
     60%,100%{
         background: rgb(5, 225, 5);
     }
+
 }
 @keyframes wrong{
     0%,30%,50%{
@@ -114,7 +120,7 @@
     list-style:none ;
     width: 100%;
     padding: 20px;
-
+    font-family: 'Ubuntu', sans-serif;
 }
 .moneyListItem{
     display: flex;
@@ -142,7 +148,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
- 
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .start{
@@ -177,3 +183,56 @@
     font-weight: 500;
 }
 
+#firstH1{
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 860px) {
+    .main{
+        width:70%;
+    }
+    .pyramid{
+        width: 30%;
+    }
+    .moneyList{
+        padding: 10px;
+    }
+    .moneyListItemNumber{
+        font-size: 15px;
+        margin-top:-2px;
+        margin-bottom: -2px;
+        /* font-weight:100; */
+        width: 30%;
+        /* border: 1px solid red; */
+    }
+    .moneyListItemAmount{
+        font-size: 16px;
+        /* border: 1px solid red; */
+        margin-top:-2px ;
+        margin-bottom: -2px;
+        font-weight: 200;
+    }
+    .endText{
+       font-size: 10px;
+    }
+    .question{
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    .answer{
+        width: 40%;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 100;
+        margin: 8px;
+    }
+    .timer{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid white;
+        font-size: 25px;
+       
+    }
+}
