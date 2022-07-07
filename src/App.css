@@ -1,7 +1,6 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 .app{
     height: 100vh;
@@ -198,17 +197,21 @@
     .moneyList{
         padding: 10px;
     }
+    .top{
+        height: 35%;
+        position: relative;
+    }
+    .bottom{
+        height: 65%;
+    }
     .moneyListItemNumber{
         font-size: 15px;
         margin-top:-3px;
         margin-bottom: -3px;
-        /* font-weight:100; */
         width: 30%;
-        /* border: 1px solid red; */
     }
     .moneyListItemAmount{
         font-size: 16px;
-        /* border: 1px solid red; */
         margin-top:-4px ;
         margin-bottom: -4px;
         font-weight: 200;
