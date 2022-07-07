@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 
 export default function Timer(props) {
-    const [timer, setTimer] = useState(30);
+    const [timer, setTimer] = useState(1000);
 
     useEffect(()=>{
         if(timer === 0){
@@ -18,7 +18,7 @@ export default function Timer(props) {
     
     });
     useEffect(() =>{
-        setTimer(30);
+        setTimer(1000);
     }, [props.questionNumber]);
 
   
